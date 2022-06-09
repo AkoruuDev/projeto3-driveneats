@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    /*      font-family: 'Righteous', cursive;      */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    /*      font-family: 'Roboto', sans-serif;      */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+
+    color: var(--preto);
+    background-color: #1f1919;
+
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    width: 614px;
+    height: 100%;
+
+    background-color: var(--background);
+}
+
+.top {
+    width: 614px;
+    height: 92px;
+    padding: 8px 21px;
+
+    color: var(--branco);
+    background-color: var(--vermelho);
+    box-shadow: 0 6px 4px -2px gray;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.container {
+    margin: 92px 0px;
+    padding: 0px 19px;
+}
+
+.pedido {
+    width: 172px;
+    height: 216px;
+    padding: 18px 14px;
+
+    background-color: var(--branco);
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 8px;
+    box-shadow: #000000 0px 0px 10px -4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 144px;
+    height: 87px;
+    
+    border-radius: 4px;
+}
+
+.desc {
+    height: 87px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc :nth-child(2) {
+    font-size: 15px;
+    color: var(--cinza);
+}
+
+.base {
+    width: 614px;
+    height: 92px;
+
+    background-color: var(--branco);
+    box-shadow: #000000 0px 0px 10px -4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.base input {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    font-weight: bold;
+    background-color: var(--cinza);
+
+    border: none;
+    box-shadow: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

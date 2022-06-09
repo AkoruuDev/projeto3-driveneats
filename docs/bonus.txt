@@ -1,0 +1,18 @@
+- Bônus 1: Peça o nome e endereço
+    
+    Ao clicar em finalizar pedido, lance dois `prompt` para o usuário solicitando seu nome e endereço. Essas informações devem então serem adicionadas na mensagem final que é enviada por WhatsApp nesse **formato** (igualzinho, sem nenhum caracter a mais):
+    
+    ```
+    Olá, gostaria de fazer o pedido:
+    - Prato: Frango Yin Yang
+    - Bebida: Coquinha Gelada
+    - Sobremesa: Pudim
+    Total: R$ 27.70
+    
+    Nome: Fulano
+    Endereço: Rua...
+    ```
+    
+- Bônus 2: Confirme os dados antes de finalizar o pedido
+    
+    Ao clicar em "Finalizar pedido", em vez de ir para o WhatsApp direto, primeiro revise a compra seguindo a tela Bônus disponível no Figma.

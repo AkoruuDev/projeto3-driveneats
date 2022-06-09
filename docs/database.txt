@@ -13,11 +13,13 @@ Desenvolvedor
 Database
     Projeto
         Data de Inicio
-            --/--/----
+            08-06-2022
         Data de finalização
             --/--/----
+        Data de entrega
+            --/--/----
         Produção
-            --:--:--:--
+            01:58:--:--
     bonus AB
         ---
     bonus

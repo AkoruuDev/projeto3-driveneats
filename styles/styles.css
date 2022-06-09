@@ -33,6 +33,7 @@ body {
     padding: 8px 21px;
 
     color: var(--branco);
+    font-size: 22px;
     background-color: var(--vermelho);
     box-shadow: 0 6px 4px -2px gray;
 
@@ -41,15 +42,42 @@ body {
     z-index: 1;
 }
 
+.top p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
 .container {
-    margin: 92px 0px;
+    margin: 98px 0px;
     padding: 0px 19px;
+    padding-top: 27px;
+}
+
+h3 {
+    margin-top: 27px;
+    margin-bottom: 17px;
+    font-size: 26px;
+}
+
+.escolha {
+    height: 220px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.escolha::-webkit-scrollbar {
+    display: none;
 }
 
 .pedido {
     width: 172px;
     height: 216px;
     padding: 18px 14px;
+    margin-right: 18px;
 
     background-color: var(--branco);
     font-family: 'Roboto', sans-serif;
@@ -104,9 +132,9 @@ img {
     border-radius: 50px;
 
     font-family: 'Roboto', sans-serif;
-    color: var(--preto);
+    color: var(--branco);
     font-weight: bold;
-    background-color: var(--cinza);
+    background-color: var(--botao);
 
     border: none;
     box-shadow: none;

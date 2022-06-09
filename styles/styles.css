@@ -76,14 +76,23 @@ h3 {
 .pedido {
     width: 172px;
     height: 216px;
-    padding: 18px 14px;
     margin-right: 18px;
+    padding: 8px 8px;
 
     background-color: var(--branco);
     font-family: 'Roboto', sans-serif;
 
     border-radius: 8px;
     box-shadow: #000000 0px 0px 10px -4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order {
+    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -142,4 +151,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.finalizacao-do-pedido, ion-icon{
+    display: none;
 }

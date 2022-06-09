@@ -1,4 +1,4 @@
-:root {
+:root { /*      Base            */
     --vermelho: #CF2B2B;
     --branco: #FFFFFF;
     --preto: #333333;
@@ -6,4 +6,9 @@
     --verde: #32B72F;
     --background: #E5E5E5;
     --botao: #CBCBCB;
+}
+
+:root { /*      finalização     */
+    --fbranco: #ffffffd0;
+    --fverde: #50D074;
 }

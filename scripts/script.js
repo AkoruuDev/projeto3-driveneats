@@ -1,14 +1,3 @@
-function pgFinalPedido() {
-    let pgfinal = document.querySelector(".finalizacao-do-pedido");
-    
-    pgfinal.classList.toggle("fimpedido");
-}
-
-function test() {
-    alert("oi");
-}
-
-
 let pedidoComida;
 let valueordercom;
 let pedidoBebida;
@@ -71,4 +60,10 @@ function pedidoDeFinalizacao() {
         let valuecomida = document.querySelector(".pedidocomidavalue");
         valuecomida.innerHTML = valueordercom;
     }   
+}
+
+function pgFinalPedido() {
+    let pgfinal = document.querySelector(".finalizacao-do-pedido");
+    
+    pgfinal.classList.toggle("fimpedido");
 }

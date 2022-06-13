@@ -1,7 +1,7 @@
 # projeto3-driveneats
 Projeto com a proposta inicial de fazer um site/app de delivery
 <p>
-<a href="https://github.com/akoruudev/" >Acesse o site aqui</a>
+<a href="https://akoruudev.github.io/projeto3-driveneats/" >Acesse o site aqui</a>
   
 #
 
@@ -30,6 +30,6 @@ Projeto com a proposta inicial de fazer um site/app de delivery
 *  <a href="https://www.github.com/akoruudev/" target="_blank"><img src="https://logodownload.org/wp-content/uploads/2019/08/github-logo-icon-0.png" height="15" target="_blank"> Perfil do GitHub</a>
 
 > Metadados
-*  <a href="https://github.com/akoruudev/" >Acesse aqui</a>
-
+*  <a href=""https://github.com/AkoruuDev/projeto3-driveneats/blob/master/docs/database.txt" >Acesse aqui</a>
+  
 </div>

@@ -15,15 +15,16 @@ Database
         Data de Inicio
             08-06-2022
         Data de finalização
-            --/--/----
+            13-06-2022
         Data de entrega
-            --/--/----
+            13-06-2022
         Produção
-            01:58:--:--
+            8:55:00:00
     bonus AB
         ---
     bonus
-        ---
+        Produção
+            1:23:00:00
 
 Tecnologias
     HTML 5

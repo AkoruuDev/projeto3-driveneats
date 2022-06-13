@@ -153,6 +153,6 @@ img {
     align-items: center;
 }
 
-#finalizacao-do-pedido, ion-icon{
+.finalizacao-do-pedido, ion-icon{
     display: none;
 }

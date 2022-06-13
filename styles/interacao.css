@@ -1,19 +1,17 @@
-@media(max-width: 600px) {
-    .pedido {
-        box-sizing: border-box;
-        border: var(--verde) solid 4px;
-    }
+.pedidoSelecionado {
+    box-sizing: border-box;
+    border: var(--verde) solid 4px;
+}
 
-    .order {
-        position: relative;
-    }
+.order {
+    position: relative;
+}
 
-    ion-icon {
-        display: inherit;
-        position: absolute;
-        font-size: 25px;
-        right: 0px;
-        bottom: 0px;
-        color: var(--verde);
-    }
+.pedidoSelecionado ion-icon {
+    display: inherit;
+    position: absolute;
+    font-size: 25px;
+    right: 0px;
+    bottom: 0px;
+    color: var(--verde);
 }
